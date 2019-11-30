@@ -25,11 +25,12 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="/index.html">Home</a>
-                <a class="nav-item nav-link" href="/mNotas.html">Melhores do Século</a>
-                <a class="nav-item nav-link" href="/mAno.html">Sobre nós</a>
+                <a class="nav-item nav-link" href="/seculo.html">Melhores do Século</a>
+                <a class="nav-item nav-link" href="/sobre.html">Sobre nós</a>
             </div>
         </div>
     </nav>
+
     <!-- Carrossel -->
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -78,6 +79,1695 @@
         </a>
     </div>
 
+    <!-- Modal -->
+
+    <div class="modal fade" id="notasAno" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Notas por Ano</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Escolha o ano desejado para ver as notas dadas pelo Cinemágico aos filmes que o autor assistiu em
+                        cada um dos anos entre o período de 2000 e 2018.</p>
+                    <!-- Abas -->
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-2000-tab" data-toggle="pill" href="#pills-2000"
+                                role="tab" aria-controls="pills-2000" aria-selected="true">2000</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2001-tab" data-toggle="pill" href="#pills-2001" role="tab"
+                                aria-controls="pills-2001" aria-selected="false">2001</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2002-tab" data-toggle="pill" href="#pills-2002" role="tab"
+                                aria-controls="pills-2002" aria-selected="false">2002</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2003-tab" data-toggle="pill" href="#pills-2003" role="tab"
+                                aria-controls="pills-2003" aria-selected="false">2003</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2004-tab" data-toggle="pill" href="#pills-2004" role="tab"
+                                aria-controls="pills-2004" aria-selected="false">2004</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2005-tab" data-toggle="pill" href="#pills-2005" role="tab"
+                                aria-controls="pills-2005" aria-selected="false">2005</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2006-tab" data-toggle="pill" href="#pills-2006" role="tab"
+                                aria-controls="pills-2006" aria-selected="false">2006</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2007-tab" data-toggle="pill" href="#pills-2007" role="tab"
+                                aria-controls="pills-2007" aria-selected="false">2007</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2008-tab" data-toggle="pill" href="#pills-2008" role="tab"
+                                aria-controls="pills-2008" aria-selected="false">2008</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2009-tab" data-toggle="pill" href="#pills-2009" role="tab"
+                                aria-controls="pills-2009" aria-selected="false">2009</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2010-tab" data-toggle="pill" href="#pills-2010" role="tab"
+                                aria-controls="pills-2010" aria-selected="false">2010</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2011-tab" data-toggle="pill" href="#pills-2011" role="tab"
+                                aria-controls="pills-2011" aria-selected="false">2011</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2012-tab" data-toggle="pill" href="#pills-2012" role="tab"
+                                aria-controls="pills-2012" aria-selected="false">2012</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2013-tab" data-toggle="pill" href="#pills-2013" role="tab"
+                                aria-controls="pills-2013" aria-selected="false">2013</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2014-tab" data-toggle="pill" href="#pills-2014" role="tab"
+                                aria-controls="pills-2014" aria-selected="false">2014</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2015-tab" data-toggle="pill" href="#pills-2015" role="tab"
+                                aria-controls="pills-2015" aria-selected="false">2015</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2016-tab" data-toggle="pill" href="#pills-2016" role="tab"
+                                aria-controls="pills-2016" aria-selected="false">2016</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2017-tab" data-toggle="pill" href="#pills-2017" role="tab"
+                                aria-controls="pills-2017" aria-selected="false">2017</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-2018-tab" data-toggle="pill" href="#pills-2018" role="tab"
+                                aria-controls="pills-2018" aria-selected="false">2018</a>
+                        </li>
+                    </ul>
+                    <!-- Conteudo por ano -->
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- 2000 -->
+                        <div class="tab-pane fade show active" id="pills-2000" role="tabpanel"
+                            aria-labelledby="pills-2000-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>X-Men: O Filme</td>
+                                        <td>8,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>A Nova Onda do Imperador</td>
+                                        <td>8,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Amnésia</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Gladiador</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Digimon: O Filme</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>O Caminho Para El Dorado</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Dinossauro</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Bater ou Correr</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Eu, Eu Mesmo e Irene</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Buzz Lightyear do Comando Estelar</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Entrando Numa Fria</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>O Grinch</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Vovó... Zona</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>102 Dálmatas</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Premonição</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Tigrão - O Filme</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Pokémon 3: O Feitiço dos Unown</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>A Fuga das Galinhas</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>As Aventuras de Alceu e Dentinho</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>Os Flintstones em Viva Rock Vegas</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>Rugrats em Paris: Os Anjinhos</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2001 -->
+                        <div class="tab-pane fade" id="pills-2001" role="tabpanel" aria-labelledby="pills-2001-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>O Senhor dos Anéis: A Sociedade do Anel</td>
+                                        <td>9,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Harry Potter e a Pedra Filosofal</td>
+                                        <td>8,4/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>A.I.: Inteligência Artificial</td>
+                                        <td>8,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Shrek </td>
+                                        <td>8,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Monstros S.A.</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Atlantis: O Reino Perdido</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Pokémon 4: Viajantes do Tempo</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Olhos Famintos</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Velozes e Furiosos</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>O Retorno da Múmia</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Jimmy Neutron: O Menino Gênio</td>
+                                        <td>7,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Animal</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Lara Croft: Tomb Raider</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>O Diário da Princesa</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Todo Mundo em Pânico 2</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>A Casa de Vidro</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Como Cães e Gatos</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Jurassic Park III</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>Pequenos Espiões</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>Tá Todo Mundo Louco! Uma Corrida por Milhõe$</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">21</th>
+                                        <td>Dr. Dolittle 2</td>
+                                        <td>6,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2002 -->
+                        <div class="tab-pane fade" id="pills-2002" role="tabpanel" aria-labelledby="pills-2002-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>O Senhor dos Anéis: As Duas Torres</td>
+                                        <td>9,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>O Pianista</td>
+                                        <td>9,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>O Conde de Monte Cristo</td>
+                                        <td>9,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Cidade de Deus</td>
+                                        <td>8,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Homem-Aranha</td>
+                                        <td>8,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Spirit - O Corcel Indomáve</td>
+                                        <td>8,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>A Era do Gelo</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Harry Potter e a Câmara Secreta</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Lilo & Stitch</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Star Wars: Episódio II - Ataque dos Clones</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>MIB - Homens de Preto II</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Prenda-me Se For Capaz</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Resident Evil: O Hóspede Maldito</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>O Quarto do Pânico</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>O Terno de Dois Bilhões de Dólare</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td>xXx: Triplo X</td>
+                                        <td>7,6/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>Scooby-Doo</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">18</th>
+                                        <td>Pequenos Grandes Astros</td>
+                                        <td>7,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>O Grande Mentiroso</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>O Chamado</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>Navio Fantasma</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>As Meninas Superpoderosas: O Filme</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">23</th>
+                                        <td>Pequenos Espiões 2: A Ilha dos Sonhos Perdidos</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">24</th>
+                                        <td>O Pequeno Stuart Little 2</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">25</th>
+                                        <td>A Máquina do Tempo</td>
+                                        <td>6,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2003 -->
+                        <div class="tab-pane fade" id="pills-2003" role="tabpanel" aria-labelledby="pills-2003-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>O Senhor dos Anéis: O Retorno do Rei</td>
+                                        <td>9,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Piratas do Caribe: A Maldição do Pérola Negra</td>
+                                        <td>8,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Procurando Nemo</td>
+                                        <td>8,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>X-Men 2</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Todo Poderoso</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Matrix Reloaded</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Matrix Revolutions</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Demolidor: O Homem Sem Medo</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Bater ou Correr em Londres</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>S.W.A.T.: Comando Especial</td>
+                                        <td>7,6/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Olhos Famintos 2</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>+Velozes +Furiosos</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Doze é Demais</td>
+                                        <td>7,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>Premonição 2</td>
+                                        <td>7,1/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td>A Creche do Papai</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td>O Exterminador do Futuro 3: A Rebelião das Máquinas</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td>Escola de Rock</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td>Lara Croft: Tomb Raider - A Origem da Vida</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>O Massacre da Serra Elétrica</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>A Liga Extraordinária</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>Pequenos Espiões 3-D: Game Over</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Mansão Mal-Assombrada</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Lisbela e o Prisioneiro</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Os Normais - O Filme</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Hulk</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">26</th>
+                                        <td>Looney Tunes: De Volta à Ação</td>
+                                        <td>6,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2004 -->
+                        <div class="tab-pane fade" id="pills-2004" role="tabpanel" aria-labelledby="pills-2004-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Menina de Ouro</td>
+                                        <td>9,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Os Incríveis</td>
+                                        <td>8,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Harry Potter e o Prisioneiro de Azkaban</td>
+                                        <td>8,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>O Terminal</td>
+                                        <td>8,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Homem-Aranha 2</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Madrugada dos Mortos</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Os Cavaleiros do Zodíaco: Prólogo do Céu</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Como se Fosse a Primeira Vez</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Efeito Borboleta</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>Eu, Robô</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Shrek 2</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Bob Esponja: O Filme</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Resident Evil 2: Apocalipse</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Garfield: O Filme</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Show de Vizinha</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Jogos Mortai</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Yu-Gi-Oh! O Filme: Pirâmide de Luz</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>O Expresso Polar</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Van Helsing: O Caçador de Monstros</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>O Espanta Tubarões</td>
+                                        <td>7,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>As Branquelas</td>
+                                        <td>7,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>O Justiceiro</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>A Batalha de Riddick</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>A Bela e o Prisioneiro</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Entrando Numa Fria Maior Ainda</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Scooby-Doo 2: Monstros à Solta</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Táxi</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>O Filho de Chucky</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Volta ao Mundo em 80 Dias: Uma Aposta Muito Louca</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>Eurotrip: Passaporte Para a Confusão</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">31</th>
+                                        <td>Alien vs. Predador</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">31</th>
+                                        <td>De Repente 30</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">33</th>
+                                        <td>Didi Quer Ser Criança</td>
+                                        <td>6,6/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2005 -->
+                        <div class="tab-pane fade" id="pills-2005" role="tabpanel" aria-labelledby="pills-2005-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Batman Begins</td>
+                                        <td>8,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Star Wars: Episódio III - A Vingança dos Sith</td>
+                                        <td>8,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Constantine</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Harry Potter e o Cálice de Fogo</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>A Noiva Cadáver</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Fullmetal Alchemist - O Filme: O Conquistador de Shambala</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Quarteto Fantástico</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>O Guia do Mochileiro das Galáxias</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Robôs</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>Final Fantasy VII - Advent Children</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>Lilo & Stitch 2 - Stitch Deu Defeito</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>As Loucuras de Dick & Jane</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>A Fantástica Fábrica de Chocolate</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>Madagascar</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td>Hitch: Conselheiro Amoroso</td>
+                                        <td>7,4/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td>Guerra dos Mundos</td>
+                                        <td>7,4/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>Operação Babá</td>
+                                        <td>7,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>O Exorcismo de Emily Rose</td>
+                                        <td>7,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>O Galinho Chicken Little</td>
+                                        <td>7,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>xXx 2: Estado de Emergência</td>
+                                        <td>7,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">21</th>
+                                        <td>Pokémon 8: Lucario e o Mistério de Mew</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">21</th>
+                                        <td>O Virgem de 40 Anos</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">21</th>
+                                        <td>Refém</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">21</th>
+                                        <td>Herbie: Meu Fusca Turbinado</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">21</th>
+                                        <td>A Lenda do Zorro</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">26</th>
+                                        <td>Super Escola de Heróis</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">26</th>
+                                        <td>Doze é Demais 2</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">28</th>
+                                        <td>A Casa de Cera</td>
+                                        <td>6,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">29</th>
+                                        <td>Golpe Baixo</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">29</th>
+                                        <td>Apenas Amigos</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">29</th>
+                                        <td>O Filho do Máscara</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">32</th>
+                                        <td>Terra dos Mortos</td>
+                                        <td>6,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2006 -->
+                        <div class="tab-pane fade" id="pills-2006" role="tabpanel" aria-labelledby="pills-2006-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Carros</td>
+                                        <td>9,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Rocky Balboa</td>
+                                        <td>9,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>O Código Da Vinci</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>À Procura da Felicidade</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Terror em Silent Hill</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>007 - Cassino Royale</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>A Era do Gelo 2</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Click</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9</th>
+                                        <td>Piratas do Caribe: O Baú da Morte</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>Death Note</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>Death Note: The Last Name</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>O Segredo dos Animais</td>
+                                        <td>7,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Garfield 2</td>
+                                        <td>7,6/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>X-Men: O Confronto Final</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>Naruto 3: A Revolta dos Animais da Lua Crescente!</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>Velozes e Furiosos - Desafio em Tóquio</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>Uma Noite no Museu</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>As Torres Gêmeas</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>O Diabo Veste Prada</td>
+                                        <td>7,2/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>Os Sem-Floresta</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>A Casa Monstro</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>Por Água Abaixo</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">23</th>
+                                        <td>Premonição 3</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">24</th>
+                                        <td>Poseidon</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">24</th>
+                                        <td>Cães Assassinos</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">24</th>
+                                        <td>Vovó... Zona 2</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">27</th>
+                                        <td>Happy Feet: O Pingüim</td>
+                                        <td>6,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">28</th>
+                                        <td>Nacho Libre</td>
+                                        <td>5,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">29</th>
+                                        <td>Turistas</td>
+                                        <td>4,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2007 -->
+                        <div class="tab-pane fade" id="pills-2007" role="tabpanel" aria-labelledby="pills-2007-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Tropa de Elite</td>
+                                        <td>8,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>300</td>
+                                        <td>8,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Homem-Aranha 3</td>
+                                        <td>8,2/10</td>
+                                        <td class="text-center text-success">Sim</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Ratatouille</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Piratas do Caribe - No Fim do Mundo</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>O Nevoeiro</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Eu Sou a Lenda</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Eu os Declaro Marido e... Larry</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9</th>
+                                        <td>Resident Evil 3 - A Extinção</td>
+                                        <td>7,6/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9</th>
+                                        <td>Quarteto Fantástico e o Surfista Prateado</td>
+                                        <td>7,6/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Bee Movie - A História de uma Abelha</td>
+                                        <td>7,6/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Os Simpsons: O Filme</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center text-success">Sim</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Naruto Shippuden the Movie</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Motoqueiro Fantasma</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>As Férias de Mr. Bean</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td>1408</td>
+                                        <td>7,4/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>Alvin e os Esquilos</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>Transformers</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>Shrek Terceiro</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>Bleach: The DiamondDust Rebellion</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>Harry Potter e a Ordem da Fênix</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>A Volta do Todo Poderoso</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>O Caçador de Pipas</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">24</th>
+                                        <td>A Família do Futuro</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">25</th>
+                                        <td>Norbit - Uma Comédia de Peso</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">26</th>
+                                        <td>Ben 10: Race Against Time</td>
+                                        <td>6,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2008 -->
+                        <div class="tab-pane fade" id="pills-2008" role="tabpanel" aria-labelledby="pills-2008-tab">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Filme</th>
+                                        <th scope="col">Nota</th>
+                                        <th class="text-center" scope="col">Assistiu no Cinema?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Batman - O Cavaleiro Das Trevas</td>
+                                        <td>9,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Homem de Ferro</td>
+                                        <td>9,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>WALL-E</td>
+                                        <td>8,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Speed Racer</td>
+                                        <td>8,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>O Menino do Pijama Listrado</td>
+                                        <td>8,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>O Curioso Caso de Benjamin Button</td>
+                                        <td>8,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Sim Senhor</td>
+                                        <td>8,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Resident Evil - Degeneração</td>
+                                        <td>8,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9</th>
+                                        <td>Cloverfield - Monstro</td>
+                                        <td>8,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>L: Change the World</td>
+                                        <td>7,7/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Hancock</td>
+                                        <td>7,6/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>O Leitor</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Madagascar 2: A Grande Escapada</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>007 - Quantum of Solace</td>
+                                        <td>7,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td>Star Wars: The Clone Wars</td>
+                                        <td>7,3/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td>O Incrível Hulk</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td>Zohan: O Agente Bom de Corte</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td>Arquivo X: Eu Quero Acreditar</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td>Jumper</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td>Viagem ao Centro da Terra - O Filme</td>
+                                        <td>7,0/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">21</th>
+                                        <td>Missão Babilônia</td>
+                                        <td>6,8/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22</th>
+                                        <td>A Múmia: Tumba do Imperador Dragão</td>
+                                        <td>6,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">23</th>
+                                        <td>Crepúsculo</td>
+                                        <td>5,5/10</td>
+                                        <td class="text-center">Não</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>* Notas iguais geram empate e acumulam posições.</p>
+                        </div>
+                        <!-- 2009 -->
+                        <div class="tab-pane fade" id="pills-2009" role="tabpanel" aria-labelledby="pills-2009-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2010" role="tabpanel" aria-labelledby="pills-2010-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2011" role="tabpanel" aria-labelledby="pills-2011-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2012" role="tabpanel" aria-labelledby="pills-2012-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2013" role="tabpanel" aria-labelledby="pills-2013-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2014" role="tabpanel" aria-labelledby="pills-2014-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2015" role="tabpanel" aria-labelledby="pills-2015-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2016" role="tabpanel" aria-labelledby="pills-2016-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2017" role="tabpanel" aria-labelledby="pills-2017-tab">.c..
+                        </div>
+                        <div class="tab-pane fade" id="pills-2018" role="tabpanel" aria-labelledby="pills-2002-tab">.c..
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Título -->
+
     <div class="container-fluid mt-3 mb-3">
         <div>
             <h1 class="text-center">Cinemágico</h1>
@@ -87,7 +1777,9 @@
 
     <div class="container-fluid mt-3 mb-3 text-center">
         <button type="button" class="btn btn-warning m-2">Melhores do Século</button>
-        <button type="button" class="btn btn-warning m-2">Melhores por ano</button>
+        <button type="button" class="btn btn-warning m-2" data-toggle="modal" data-target="#notasAno">
+            Notas por ano
+        </button>
     </div>
 
 
@@ -140,19 +1832,22 @@
                 <div class="col-lg-6 order-lg-2">
                     <div class="p-5">
                         <h1 class="display-6"><strong>A Chegada</strong></h2>
-                        <p>Surpreendente, de todas as formas, não há outro termo para definir A Chegada, ou The Arrival,
-                            nome original. Dirigido por Denis Villeneuve, com roteiro de Eric Heisserer e baseado num
-                            conto de Ted Chiang, \"Story of Your Life\",
-                            o filme conta a história de uma linguista que é chamada para se comunicar com uma raça de
-                            alienígenas que chegam à Terra.</p>
-                        <p class="text-right">- scifitupiniquim</p>
-                        <p class="text-right">
-                            <a class="btn btn-secondary" href="https://www.imdb.com/title/tt2543164/" Target=”_blank”
-                                role="button">IMDB</a>
-                            <a class="btn btn-secondary"
-                                href="http://www.scifitupiniquim.com.br/index.php/filmes/2063-resenha-de-filme-a-chegada"
-                                Target=”_blank” role="button">Resenha</a>
-                        </p>
+                            <p>Surpreendente, de todas as formas, não há outro termo para definir A Chegada, ou The
+                                Arrival,
+                                nome original. Dirigido por Denis Villeneuve, com roteiro de Eric Heisserer e baseado
+                                num
+                                conto de Ted Chiang, \"Story of Your Life\",
+                                o filme conta a história de uma linguista que é chamada para se comunicar com uma raça
+                                de
+                                alienígenas que chegam à Terra.</p>
+                            <p class="text-right">- scifitupiniquim</p>
+                            <p class="text-right">
+                                <a class="btn btn-secondary" href="https://www.imdb.com/title/tt2543164/"
+                                    Target=”_blank” role="button">IMDB</a>
+                                <a class="btn btn-secondary"
+                                    href="http://www.scifitupiniquim.com.br/index.php/filmes/2063-resenha-de-filme-a-chegada"
+                                    Target=”_blank” role="button">Resenha</a>
+                            </p>
                     </div>
                 </div>
             </div>
