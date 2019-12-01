@@ -1,0 +1,12 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+  }
+
+.filmeD{
+    border-style: solid;
+    border-color: rgb(31, 31, 31);
+    border-width: medium;
+    margin-left: -1px;
+    margin-right: -2px;
+}
