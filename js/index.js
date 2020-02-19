@@ -14,11 +14,11 @@ function RankingFilmes() {
     for (var i = 0; i < rank.length; i++) {
         if (nota[i].innerHTML == nota[i + 1].innerHTML) {
             rank[i + 1].innerHTML = rankN
-            aux = aux + 1
+            aux++
         } else {
             rankN = aux
             rank[i + 1].innerHTML = rankN
-            aux = aux + 1
+            aux++
         }
     }
 }
